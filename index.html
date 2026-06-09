@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COREAS´ CORP - Soporte Técnico a Distancia</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#fff0f5;
+}
+
+/* ENCABEZADO */
+
+header{
+    background:linear-gradient(135deg,#d63384,#ff66b3);
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+header h1{
+    font-size:42px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+/* MENU */
+
+nav{
+    background:#f8bbd9;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#880e4f;
+    font-weight:bold;
+    margin:0 15px;
+    font-size:16px;
+}
+
+nav a:hover{
+    color:#d63384;
+}
+
+/* CONTENIDO */
+
+.contenedor{
+    width:90%;
+    margin:30px auto;
+}
+
+/* BIENVENIDA */
+
+.bienvenida{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0px 3px 10px rgba(0,0,0,.15);
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.bienvenida h2{
+    color:#d63384;
+    margin-bottom:15px;
+}
+
+/* TARJETAS */
+
+.tarjetas{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.tarjeta{
+    width:30%;
+    background:white;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:15px;
+    box-shadow:0px 3px 10px rgba(0,0,0,.15);
+    text-align:center;
+    transition:0.3s;
+}
+
+.tarjeta:hover{
+    transform:translateY(-5px);
+}
+
+.tarjeta h3{
+    color:#d63384;
+    margin-bottom:10px;
+}
+
+/* SECCION OBJETIVOS */
+
+.objetivos{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0px 3px 10px rgba(0,0,0,.15);
+    margin-top:20px;
+}
+
+.objetivos h2{
+    color:#d63384;
+    margin-bottom:15px;
+}
+
+.objetivos ul{
+    margin-left:20px;
+    line-height:2;
+}
+
+/* PIE */
+
+footer{
+    background:#d63384;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+/* RESPONSIVO */
+
+@media(max-width:768px){
+
+.tarjeta{
+    width:100%;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>CORREA'S-CORPORATIVO</h1>
+    <p>Sistema de Soporte Técnico a Distancia</p>
+</header>
+
+<nav style="
+    background:#f8bbd9;
+    padding:12px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+">
+
+    <a href="index.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Inicio</a>
+    <a href="bitacora.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Bitácora</a>
+    <a href="empresa.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Empresa</a>
+    <a href="faq.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">FAQ</a>
+    <a href="herramientas.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Herramientas</a>
+    <a href="servicios.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Servicios</a>
+    <a href="instrucciones.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Instrucciones</a>
+    <a href="multimedia.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Multimedia</a>
+    <a href="precios.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Precios</a>
+    <a href="seguridad.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Seguridad</a>
+    <a href="solicitud.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Solicitud</a>
+    <a href="tickets.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Tickets</a>
+
+</nav>
+
+     <img src="logo alecita.jpeg"
+         alt="Logo COREAS CORP"
+         style="display:block; margin:0 auto;">
+
+<div class="contenedor">
+
+    <section class="bienvenida">
+
+        <h2>Bienvenido</h2>
+
+        <p>
+            El soporte técnico a distancia permite resolver problemas
+            informáticos de forma rápida, segura y eficiente mediante
+            herramientas de acceso remoto.
+        </p>
+
+    </section>
+
+    <div class="tarjetas">
+
+        <div class="tarjeta">
+            <h3>💻 Soporte Remoto</h3>
+            <p>
+                Atención inmediata para solucionar problemas técnicos
+                desde cualquier ubicación.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>🔒 Seguridad</h3>
+            <p>
+                Conexiones protegidas para garantizar la privacidad
+                y seguridad de la información.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>⚡ Atención Rápida</h3>
+            <p>
+                Reducción de tiempos de espera mediante asistencia
+                remota en tiempo real.
+            </p>
+        </div>
+
+    </div>
+
+    <section class="objetivos">
+
+        <h2>Objetivos del Proyecto</h2>
+
+        <ul>
+            <li>Conocer el funcionamiento del soporte técnico remoto.</li>
+            <li>Identificar herramientas de acceso a distancia.</li>
+            <li>Comprender las medidas de seguridad informática.</li>
+            <li>Aprender el proceso de atención de incidencias.</li>
+            <li>Aplicar conocimientos tecnológicos en un entorno real.</li>
+        </ul>
+
+    </section>
+
+</div>
+
+<footer>
+    <p>
+        CORREA'S-CORPORATIVO © 2026
+    </p>
+</footer>
+
+</body>
+</html>

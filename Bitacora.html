@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bitácora de Servicio</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background:#fff0f5;
+    margin:0;
+}
+
+header{
+    background:#d63384;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+nav{
+    background:#f8bbd9;
+    padding:12px;
+    text-align:center;
+}
+
+nav a{
+    text-decoration:none;
+    color:#880e4f;
+    font-weight:bold;
+    margin:0 15px;
+}
+
+nav a:hover{
+    color:#d63384;
+}
+
+.contenedor{
+    width:80%;
+    margin:30px auto;
+}
+
+.seccion{
+    background:white;
+    margin-bottom:25px;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0px 3px 8px rgba(0,0,0,.2);
+}
+
+.seccion h2{
+    color:#d63384;
+    margin-bottom:15px;
+}
+
+.seccion p{
+    line-height:1.6;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+}
+
+th{
+    background:#d63384;
+    color:white;
+    padding:12px;
+}
+
+td{
+    padding:10px;
+    border:1px solid #ddd;
+}
+
+input{
+    width:95%;
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    background:#d63384;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:5px;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+button:hover{
+    background:#b81f6c;
+}
+
+footer{
+    background:#d63384;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Bitácora de Servicio</h1>
+    <p>Registro de actividades de soporte técnico</p>
+</header>
+
+<nav style="
+    background:#f8bbd9;
+    padding:12px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+">
+
+    <a href="index.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Inicio</a>
+    <a href="bitacora.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Bitácora</a>
+    <a href="empresa.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Empresa</a>
+    <a href="faq.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">FAQ</a>
+    <a href="herramientas.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Herramientas</a>
+    <a href="servicios.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Servicios</a>
+    <a href="instrucciones.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Instrucciones</a>
+    <a href="multimedia.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Multimedia</a>
+    <a href="precios.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Precios</a>
+    <a href="seguridad.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Seguridad</a>
+    <a href="solicitud.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Solicitud</a>
+    <a href="tickets.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Tickets</a>
+
+</nav>
+
+<div class="contenedor">
+
+    <div class="seccion">
+
+        <h2>📝 Registro de Servicios</h2>
+
+        <p>
+            En esta sección se registran los servicios realizados,
+            la fecha de atención y el estado actual de cada solicitud.
+            Esto permite llevar un control organizado de las actividades
+            de soporte técnico remoto.
+        </p>
+
+        <form>
+
+            <table>
+
+                <tr>
+                    <th>Fecha</th>
+                    <th>Servicio</th>
+                    <th>Estado</th>
+                </tr>
+
+                <tr>
+                    <td><input type="date" name="fecha1"></td>
+                    <td><input type="text" name="servicio1" placeholder="Descripción del servicio"></td>
+                    <td><input type="text" name="estado1" placeholder="Completado, Pendiente, En proceso"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="date" name="fecha2"></td>
+                    <td><input type="text" name="servicio2" placeholder="Descripción del servicio"></td>
+                    <td><input type="text" name="estado2" placeholder="Completado, Pendiente, En proceso"></td>
+                </tr>
+
+                <tr>
+                    <td><input type="date" name="fecha3"></td>
+                    <td><input type="text" name="servicio3" placeholder="Descripción del servicio"></td>
+                    <td><input type="text" name="estado3" placeholder="Completado, Pendiente, En proceso"></td>
+                </tr>
+
+            </table>
+
+            <button type="submit">Guardar Registro</button>
+
+        </form>
+
+    </div>
+
+</div>
+
+<footer>
+    CORREA'S-CORPORATIVO © 2026
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Servicios de Soporte Técnico</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#fff0f5;
+}
+
+header{
+    background:linear-gradient(135deg,#d63384,#ff66b3);
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+header h1{
+    font-size:38px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+}
+
+nav{
+    background:#f8bbd9;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#880e4f;
+    font-weight:bold;
+    margin:0 15px;
+}
+
+nav a:hover{
+    color:#d63384;
+}
+
+.contenedor{
+    width:90%;
+    margin:30px auto;
+}
+
+.introduccion{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0px 3px 10px rgba(0,0,0,.15);
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.introduccion h2{
+    color:#d63384;
+    margin-bottom:15px;
+}
+
+.servicios{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.tarjeta{
+    width:48%;
+    background:white;
+    padding:25px;
+    margin-bottom:25px;
+    border-left:8px solid #d63384;
+    border-radius:15px;
+    box-shadow:0px 3px 10px rgba(0,0,0,.15);
+    transition:0.3s;
+}
+
+.tarjeta:hover{
+    transform:translateY(-5px);
+}
+
+.tarjeta h3{
+    color:#d63384;
+    margin-bottom:10px;
+}
+
+.tarjeta p{
+    line-height:1.6;
+}
+
+footer{
+    background:#d63384;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+@media(max-width:768px){
+
+.tarjeta{
+    width:100%;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Servicios de Soporte Técnico</h1>
+    <p>Soluciones tecnológicas para usuarios y empresas</p>
+</header>
+
+<nav style="
+    background:#f8bbd9;
+    padding:12px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+">
+
+    <a href="index.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Inicio</a>
+    <a href="bitacora.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Bitácora</a>
+    <a href="empresa.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Empresa</a>
+    <a href="faq.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">FAQ</a>
+    <a href="herramientas.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Herramientas</a>
+    <a href="servicios.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Servicios</a>
+    <a href="instrucciones.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Instrucciones</a>
+    <a href="multimedia.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Multimedia</a>
+    <a href="precios.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Precios</a>
+    <a href="seguridad.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Seguridad</a>
+    <a href="solicitud.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Solicitud</a>
+    <a href="tickets.html" style="text-decoration:none; color:#880e4f; font-weight:bold;">Tickets</a>
+
+</nav>
+
+<div class="contenedor">
+
+    <section class="introduccion">
+        <h2>Nuestros Servicios</h2>
+
+        <p>
+            Ofrecemos soporte técnico remoto para resolver incidencias,
+            optimizar equipos y garantizar el correcto funcionamiento
+            de sistemas informáticos.
+        </p>
+    </section>
+
+    <div class="servicios">
+
+        <div class="tarjeta">
+            <h3>💾 Instalación de Software</h3>
+            <p>
+                Instalación y configuración de programas, aplicaciones,
+                controladores y herramientas necesarias para el usuario.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>🦠 Eliminación de Virus</h3>
+            <p>
+                Detección y eliminación de malware, spyware y otras amenazas
+                que afectan el rendimiento del equipo.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>🌐 Configuración de Redes</h3>
+            <p>
+                Solución de problemas de conectividad, configuración de Wi-Fi,
+                impresoras en red y dispositivos compartidos.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>🔄 Respaldo de Información</h3>
+            <p>
+                Creación de copias de seguridad para proteger documentos,
+                fotografías y archivos importantes.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>⚙️ Optimización de Equipos</h3>
+            <p>
+                Limpieza de archivos temporales, mejora del rendimiento
+                y actualización de componentes de software.
+            </p>
+        </div>
+
+        <div class="tarjeta">
+            <h3>📧 Configuración de Correo</h3>
+            <p>
+                Configuración de cuentas de correo electrónico en equipos
+                de escritorio y dispositivos móviles.
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+   CORREA'S-CORPORATIVO © 2026
+
+</footer>
+
+</body>
+</html>
